@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>회원가입</h1>
+            <p>지금 가입하시면 다양한 서비스를 즐기실 수 있습니다.</p>
+        </header>
+
+        <main>
+            <form action="#">
+                <fieldset class="info">
+                    <label for="userName"></label>
+                    <input type="text" placeholder="이름" name="name" id="userName">
+                    <label for="userEmail"></label>
+                    <input type="email" placeholder="이메일" name="email" id="userEmail">
+                    <label for="pw"></label>
+                    <input type="password" placeholder="비밀번호" name="비밀번호" id="pw">
+                    <label for="checkPw"></label>
+                    <input type="password" placeholder="비밀번호 확인" name="비밀번호확인" id="checkPw">
+                </fieldset>
+
+                <fieldset class="check">
+                    <div class="agree">
+                        <input type="checkbox" name="agr" id="checkAgree">
+                        <label for="checkAgree">전체동의</label>
+                    </div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="svc" id="svcAgree">
+                            <label for="svcAgree">이용약관 동의 <span>(필수)</span></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="info" id="infoAgree">
+                            <label for="infoAgree">개인정보수집 및 이용동의 <span>(필수)</span></label>
+                        </li>
+                    </ul>
+                    <button type="submit"><a href="https://velog.io/@florence_y">가입하기</a></button>
+                </fieldset>
+            </form>
+            <div class="login">
+                <span>이미 가입하셨다면?</span>
+                <a href="#">로그인</a>
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>
